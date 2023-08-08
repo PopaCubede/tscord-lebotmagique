@@ -1,7 +1,7 @@
 export const logsConfig: LogsConfigType = {
 
-    debug: false, // set the discordx client debug logs
-	
+    debug: true, // set the discordx client debug logs
+
     // for each type of log, you can precise :
     // - if the log should be consoled
     // - if the log should be saved to the log files
@@ -14,7 +14,7 @@ export const logsConfig: LogsConfigType = {
 
         // exclude some interactions types
         exclude: [
-            'BUTTON_INTERACTION', 
+            'BUTTON_INTERACTION',
             'SELECT_MENU_INTERACTION'
         ]
     },
@@ -36,7 +36,7 @@ export const logsConfig: LogsConfigType = {
         console: true,
         channel: null
     },
-    
+
     error: {
         file: true,
         console: true,
